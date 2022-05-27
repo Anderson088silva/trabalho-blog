@@ -38,9 +38,18 @@ small {
     font-weight: 700;
 }
 
-section {
-    padding-top: 100%;
-    padding-bottom: 100%;
+.banner {
+    background-image: url(../imagens/banner.webp);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 100vh;
+    opacity: .3;
+}
+
+.banner-content {
+    position: absolute;
+    top: 50%;
 }
 
 .navbar {
@@ -105,4 +114,13 @@ section {
     align-items: center;
     justify-content: center;
     font-size: 32px;
+}
+
+form .form-control {
+    border-radius: 0;
+}
+
+form .form-control:focus {
+    box-shadow: none;
+    border-color: #e61313
 }
