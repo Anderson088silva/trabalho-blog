@@ -15,7 +15,12 @@ h6 {
     font-weight: 700;
     letter-spacing: 1px;
     text-transform: uppercase;
-    color: #11245a;
+    color: #e61313;
+}
+
+.title-sm {
+    font-size: 16px;
+    letter-spacing: 1px;
 }
 
 a {
@@ -45,7 +50,7 @@ section {
 .logo-text {
     font-size: 22px;
     text-transform: uppercase;
-    color: #11245a !important;
+    color: #e61313!important;
 }
 
 .navbar .nav-link {
@@ -55,10 +60,49 @@ section {
 }
 
 .navbar-light .navbar-nav .nav-link.active {
-    color: #E93Bb1
+    color: #e61313
 }
 
-#home {
-    min-width: 100vh;
-    background: linear-gradient( rgba(17, 36, 90, 0.541), rgba(17, 36, 90, 0.8)), url(../imagens/banner.webp)
+.home h1 {
+    font-weight: 700;
+}
+
+.home p {
+    max-width: 550px;
+    margin: auto;
+}
+
+.btn {
+    font-weight: 700;
+    font-size: 12px;
+    text-transform: uppercase;
+    padding: 12px 28px;
+}
+
+.btn-brand {
+    background-color: #e61313;
+    color: #fff
+}
+
+.section-intro {
+    text-align: center;
+}
+
+.section-intro .hline {
+    width: 120px;
+    height: 2px;
+    background-color: #e61313;
+    margin: 16px auto 0 auto;
+}
+
+.icon-box {
+    width: 60px;
+    height: 60px;
+    background-color: #e61313;
+    color: #fff;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 32px;
 }
