@@ -44,7 +44,7 @@ small {
     background-size: contain;
     background-repeat: no-repeat;
     height: 100vh;
-    opacity: .3;
+    opacity: .6;
 }
 
 .banner-content {
@@ -123,4 +123,22 @@ form .form-control {
 form .form-control:focus {
     box-shadow: none;
     border-color: #e61313
+}
+
+.footer-top {
+    padding-top: 90px;
+    padding-bottom: 90px;
+    background-color: #fff;
+}
+
+.footer-top a {
+    color: #898fa1;
+}
+
+.footer-top a:hover {
+    color: var(--white);
+}
+
+.footer-bottom {
+    background-color: #e61313;
 }
