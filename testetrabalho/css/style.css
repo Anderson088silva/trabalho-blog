@@ -127,7 +127,6 @@ form .form-control:focus {
 
 .footer-top {
     padding-top: 90px;
-    padding-bottom: 90px;
     background-color: #fff;
 }
 
@@ -140,5 +139,15 @@ form .form-control:focus {
 }
 
 .footer-bottom {
-    background-color: #e61313;
+    background-color: #f8f8f8;
+}
+
+.copyright {
+    font-size: 12px;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+.social-icons {
+    padding-left: 300px;
 }
