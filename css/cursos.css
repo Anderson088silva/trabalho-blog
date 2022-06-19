@@ -50,20 +50,6 @@ small {
     font-weight: 700;
 }
 
-.banner {
-    background-image: url(../imagens/banner.webp);
-    background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat;
-    height: 100vh;
-    opacity: .6;
-}
-
-.banner-content {
-    position: absolute;
-    top: 50%;
-}
-
 .navbar {
     border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
@@ -84,13 +70,18 @@ small {
     color: #e61313
 }
 
-.home h1 {
-    font-weight: 700;
+.banner {
+    background-image: url(https://www.etecpirassununga.com.br/wp-content/uploads/2018/05/ds.jpg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 110vh;
+    opacity: .6;
 }
 
-.home p {
-    max-width: 550px;
-    margin: auto;
+.banner-content {
+    position: absolute;
+    top: 50%;
 }
 
 .btn {
