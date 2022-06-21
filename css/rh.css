@@ -10,6 +10,15 @@ body {
     font-weight: 400 !important;
 }
 
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background-color: #e61313;
+}
+
 h1,
 h2,
 h3,
