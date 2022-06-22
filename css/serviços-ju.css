@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+body {
+    line-height: 1.8;
+    color: #898fa1;
+    font-size: 15px;
+    font-family: 'Lato', sans-serif !important;
+}
+
+.dropdown-item {
+    font-weight: 400 !important;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background-color: #e61313;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #e61313;
+}
+
+.title-sm {
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+
+.Titulo-entrada {
+    font-size: 180px;
+}
+
+.entrada {
+    font-size: 20px;
+}
+
+a {
+    font-weight: 700;
+    transition: all 0.4s ease;
+}
+
+img {
+    width: 100%;
+}
+
+small {
+    font-size: 12px;
+    letter-spacing: 2px;
+    font-weight: 700;
+}
+
+.navbar {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.logo-text {
+    font-size: 22px;
+    text-transform: uppercase;
+    color: #e61313!important;
+}
+
+.navbar .nav-link {
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.navbar-light .navbar-nav .nav-link.active {
+    color: #e61313
+}
+
+.banner {
+    background-image: url(https://palmas.ifpr.edu.br/wp-content/uploads/2021/09/T%C3%A9cnico-em-Servi%C3%A7os-Jur%C3%ADdicos-1024x392.jpg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 110vh;
+    opacity: .6;
+}
+
+.banner-content {
+    position: absolute;
+    top: 50%;
+}
+
+.btn {
+    font-weight: 700;
+    font-size: 12px;
+    text-transform: uppercase;
+    padding: 12px 28px;
+}
+
+.btn-brand {
+    background-color: #e61313;
+    color: #fff
+}
+
+.section-intro {
+    text-align: center;
+}
+
+.section-intro .hline {
+    width: 120px;
+    height: 2px;
+    background-color: #e61313;
+    margin: 16px auto 0 auto;
+}
+
+.icon-box {
+    width: 60px;
+    height: 60px;
+    background-color: #e61313;
+    color: #fff;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 32px;
+}
+
+form .form-control {
+    border-radius: 0;
+}
+
+form .form-control:focus {
+    box-shadow: none;
+    border-color: #e61313
+}
+
+.footer-top {
+    padding-top: 90px;
+    background-color: #fff;
+}
+
+.footer-top a {
+    color: #898fa1;
+}
+
+.footer-top a:hover {
+    color: var(--white);
+}
+
+.footer-bottom {
+    background-color: #f8f8f8;
+}
